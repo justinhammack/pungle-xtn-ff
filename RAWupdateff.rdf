@@ -17,7 +17,7 @@
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox ID, do not change -->
                 <em:minVersion>4.0b7</em:minVersion>
                 <em:maxVersion>8.0a1</em:maxVersion>
-                <em:updateLink>http://www.pungle.me/extensions/firefox0.5.24.xpi</em:updateLink> <!-- New file location! -->
+                <em:updateLink>http://pungle.me/extensions/firefox0.5.24.xpi</em:updateLink> <!-- New file location! -->
                 <em:updateHash>sha1:7b0aa2ebaa86d9d689eda8a447235402f66ce7dc</em:updateHash> <!-- New sha1 file hash! -->
               </RDF:Description>
             </em:targetApplication>
