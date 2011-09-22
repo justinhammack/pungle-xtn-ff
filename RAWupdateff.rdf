@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- copy/paste file to updateff.rdf before 'signing w/McCoy', which scrambles files! -->
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:extension:jid0-GnhxmzpYXsDKDchOe7nVWAnhuJQ@jetpack">
+    <em:updates>
+      <RDF:Seq>
+
+        <!-- Update version with a unique LI before copying to updateff.rdf -->
+        <RDF:li>
+          <RDF:Description>
+            <em:version>0.5.24</em:version> <!-- Version number of the add-on -->
+
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox ID, do not change -->
+                <em:minVersion>4.0b7</em:minVersion>
+                <em:maxVersion>8.0a1</em:maxVersion>
+                <em:updateLink>http://www.pungle.me/extensions/firefox0.5.24.xpi</em:updateLink> <!-- New file location! -->
+                <em:updateHash>sha1:7b0aa2ebaa86d9d689eda8a447235402f66ce7dc</em:updateHash> <!-- New sha1 file hash! -->
+              </RDF:Description>
+            </em:targetApplication>
+          </RDF:Description>
+        </RDF:li>
+        
+      </RDF:Seq>
+    </em:updates>
+  </RDF:Description>
+</RDF:RDF>
