@@ -10,3 +10,4 @@
 9. McCoy sign the new updateFF.rdf file
 10. Copy new versioned XPI to appropriate folder
 11. Push all changes, test update
+12. Update file path on pungle.me
