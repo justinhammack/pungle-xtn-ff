@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:extension:jid0-GnhxmzpYXsDKDchOe7nVWAnhuJQ@jetpack"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJfejkzdOFfi311loAnyW5qIxVtmLzN2V6q50CaWonaGnIL8fhmeciPkWFA1YIeKf7Av/bjfE8TdNdF8F9prLi645Zh548Y309GmeeXVx+fMaXBM44ANCqSSA8z6+Ru2C5YT1z4ylmvyg/lbPJXdDLnCTrK8mtKQlLzMIuoaMWZ+">
+    <em:updates RDF:resource="rdf:#$wdtR61"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$AdtR61"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="4.0b7"
+                   em:maxVersion="8.0a1"
+                   em:updateLink="http://pungle.me/extensions/firefox0.5.24.xpi"
+                   em:updateHash="sha1:7b0aa2ebaa86d9d689eda8a447235402f66ce7dc" />
+  <RDF:Description RDF:about="rdf:#$xdtR61"
+                   em:version="0.5.24">
+    <em:targetApplication RDF:resource="rdf:#$AdtR61"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$GdtR61"
+                   em:version="0.5.34">
+    <em:targetApplication RDF:resource="rdf:#$JdtR61"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$JdtR61"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="4.0b7"
+                   em:maxVersion="11.0a1"
+                   em:updateLink="http://pungle.me/extensions/firefox0.5.34.xpi"
+                   em:updateHash="sha1:b39a8c260c831338b0d65979a65f19a87242ac3d" />
+  <RDF:Seq RDF:about="rdf:#$wdtR61">
+    <RDF:li RDF:resource="rdf:#$xdtR61"/>
+    <RDF:li RDF:resource="rdf:#$GdtR61"/>
+  </RDF:Seq>
+</RDF:RDF>

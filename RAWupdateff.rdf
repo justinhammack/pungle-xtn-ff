@@ -24,6 +24,22 @@
           </RDF:Description>
         </RDF:li>
         
+        <RDF:li>
+          <RDF:Description>
+            <em:version>0.5.34</em:version> <!-- Version number of the add-on -->
+
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox ID, do not change -->
+                <em:minVersion>4.0b7</em:minVersion>
+                <em:maxVersion>11.0a1</em:maxVersion>
+                <em:updateLink>http://pungle.me/extensions/firefox0.5.34.xpi</em:updateLink> <!-- New file location! -->
+                <em:updateHash>sha1:b39a8c260c831338b0d65979a65f19a87242ac3d</em:updateHash> <!-- New sha1 file hash! -->
+              </RDF:Description>
+            </em:targetApplication>
+          </RDF:Description>
+        </RDF:li>
+        
       </RDF:Seq>
     </em:updates>
   </RDF:Description>
